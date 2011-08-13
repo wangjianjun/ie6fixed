@@ -1,0 +1,57 @@
+.cc-box{
+	position: fixed; 
+	_position: absolute; 
+	left: 50%; 
+	top: 50%; 
+	width:350px; 
+	height: 250px; 
+	margin:-150px 0 0 -175px; 
+	border:2px solid #ccc
+}
+
+.lt-box{
+	position: fixed; 
+	_position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	width:100px; 
+	height: 100px; 
+	border:2px solid red;
+}
+.rt-box{
+	position: fixed; 
+	_position: absolute; 
+	right: 0px; 
+	top: 0px; 
+	width:100px; 
+	height: 100px; 
+	border:2px solid red;
+}
+.lb-box{
+	position: fixed; 
+	_position: absolute; 
+	left: 0px; 
+	bottom: 0px; 
+	width:100px; 
+	height: 100px; 
+	border:2px solid red;
+}
+.rb-box{
+	position: fixed; 
+	_position: absolute; 
+	right: 0px; 
+	bottom: 0px; 
+	width:100px; 
+	height: 100px; 
+	border:2px solid red;
+}
+
+.box{
+	position: fixed; 
+	_position: absolute;  
+	right: 0px; 
+	top: 200px; 
+	width:100px; 
+	height: 200px; 
+	border:2px solid green;
+}

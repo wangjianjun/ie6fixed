@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<title>IE6 Fixed</title>
+	<link rel="stylesheet" href="../assets/style.css"/> 
+	<script src="http://js.jrjimg.cn/lib/jquery-1.4.4.min.js"></script>
+	<script src="ie6fixed-common.js"></script>
+</head>
+<body>
+	<div class="cc-box"></div>
+	<div class="lt-box"></div>
+	<div class="rt-box"></div>
+	<div class="lb-box"></div>
+	<div class="rb-box"></div>
+
+	<div class="box"></div>
+	<script>
+
+	ie6Fixed.fixed($(".cc-box"), "cc");
+	ie6Fixed.fixed($(".lt-box"), "lt");
+	ie6Fixed.fixed($(".rt-box"), "rt");
+	ie6Fixed.fixed($(".lb-box"), "lb");
+	ie6Fixed.fixed($(".rb-box"), "rb");
+	ie6Fixed.fixed($(".box"), "")     //fiexd top = $(window).scrollTop + obj.offset().top
+	/*ie6Fixed.fixed($(".box"), function(){
+		var obj = $(".box");
+		obj[0].style.removeExpression('top');
+		var dom = '(document.documentElement || document.body)';
+		obj[0].style.setExpression("top", 'eval('+ dom + '.scrollTop + ' + ($(window).height()-obj.offset().top) + ') + "px"');
+	});*/
+	$(document).ready(function(){
+		
+	})
+	</script>
+	 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+	 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+	 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+	 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+	 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+	 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+	 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+</body>
+</html>
