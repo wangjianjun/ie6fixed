@@ -1,6 +1,6 @@
 
-ie6fixed解决IE6浏览器不支持fixed定位的问题，同时避免了scroll是元素闪烁的问题
+ie6fixed solve the problem that IE6 browser does not support the fixed position, at the same time avoid flicker when the window is scrolling.
 
-ie6fixed提供两个版本，一个普通版本，一个seajs module版本
+ie6fixed provide two versions, one is common version, another is a seajs module .
 
-ie6fixed依赖jquery
+ie6fixed depend on jquery.
