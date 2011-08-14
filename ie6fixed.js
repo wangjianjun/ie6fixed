@@ -7,7 +7,7 @@
  */
 
 define(function(require, exports, module){
-	var $ = require("jquery");
+	var $ = require("./assets/jquery");
 
 	/**
 	 * fixed定位
